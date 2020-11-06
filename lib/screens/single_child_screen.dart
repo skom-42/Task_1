@@ -12,6 +12,15 @@ class SingleChildScreen extends StatelessWidget {
           },
         ),
       ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            FloatingActionButton(
+            ),
+          ],
+        ),
+      ),
+      // floatingActionButton: FloatingActionButton(),
     );
   }
 }
